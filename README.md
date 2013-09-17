@@ -12,7 +12,7 @@ make understanding the Clojure parts a bit easier.
 Finally, the subject of REPLs is briefly discussed with working examples.
 
 Setting up a bare bones project
-===============================
+-------------------------------
 
 We will be using maven to create an initial TouchKit project and to include
 the Clojure jar into that. We will then import the project to Eclipse
@@ -62,7 +62,7 @@ Now the project is set up. The next step is to write some code
 which allows us to enter the Clojure realm. But first, a small tutorial.
 
 Clojure basics
-==============
+--------------
 
 Clojure is a dynamically typed language that belongs to the Lisp family.
 Its syntax is in prefix form instead of the usual infix found in Java and
@@ -135,7 +135,7 @@ in this tutorial. Next we'll start using Clojure for real and write our first
 example program.
 
 Entering Clojure
-================
+----------------
 
 Unlike some other tutorials on using Vaadin with Clojure, we are not going
 to try and write everything in Clojure. To avoid the culture shock, we will
@@ -188,7 +188,7 @@ To move forward with the TouchKit theme of this tutorial, we will continue
 with a more involved example.
 
 A slightly more complicated example
-===================================
+-----------------------------------
 
 Let's reproduce a simple program from the Book of Vaadin. Chapter 22.1 Overview
 contains such a program. Replace the contents of clotouch.clj with the following
@@ -239,7 +239,7 @@ At the end of the construct-view function we have view. It evaluates to itself,
 and since it is the last thing in the function, it is returned as its value.
 
 Using functional features to make the example more compact
-==========================================================
+----------------------------------------------------------
 
 There's some repetition in our example that could be removed by using some
 common functional programming features. First, adding components to group
@@ -275,7 +275,7 @@ the structure of the UI. It's as if the UI had been declared in XML instead
 of written as executable code.
 
 Using the REPL for UI experiments
-=================================
+---------------------------------
 
 The REPL is often mentioned in discussion about Lisp. The Read Eval Print Loop
 can allow Vaadin UIs to be modified without the usual compile and deploy
@@ -377,7 +377,7 @@ problems, as changes can be made in the REPL and they become immediately
 visible.
 
 That's it! What next?
-=====================
+---------------------
 
 This has been a short tour of some features of Clojure and TouchKit. Next
 step could be to get rid of eclipse completely and to switch Maven to
